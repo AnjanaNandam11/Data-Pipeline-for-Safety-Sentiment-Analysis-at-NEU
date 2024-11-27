@@ -6,10 +6,6 @@ This project aims to provide insights into public sentiment regarding safety at 
 
 Due to recent restrictions imposed on the Twitter API, we've adopted a scraping strategy using Selenium. The pipeline is scheduled to scrape tweets daily, specifically targeting those mentioning Northeastern University. These tweets are then processed, analyzed, and stored in AWS Redshift, followed by a sentiment analysis to evaluate customer sentiments. The final output is a dashboard reflecting customer sentiment trends over the preceding seven weeks.
 
-🔮 Sneak Peek at Our Architectural Blueprint!
-
-![Architecture](https://i.imgur.com/OnSij3y.jpeg)  
-
 ## 🛠 Pipeline Architecture
 
 1. *Tweet Scraping:* The journey begins with Selenium, a powerful browser automation tool, which is set to scrape tweets about NEU.
